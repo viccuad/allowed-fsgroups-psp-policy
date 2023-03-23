@@ -7,26 +7,26 @@
 version: 0.1.9
 name: allowed-fsgroups-psp
 displayName: Allowed Fs Groups PSP
-createdAt: 2023-03-23T12:59:31.151086923Z
+createdAt: 2023-03-23T15:32:06.228524766Z
 description: Replacement for the Kubernetes Pod Security Policy that controls the usage of fsGroups in the pod security context
 license: Apache-2.0
-homeURL: https://github.com/kubewarden/allowed-fsgroups-psp-policy
+homeURL: https://github.com/viccuad/allowed-fsgroups-psp-policy
 containersImages:
 - name: policy
-  image: ghcr.io/kubewarden/policies/allowed-fsgroups-psp:v0.1.9
+  image: ghcr.io/viccuad/policies/allowed-fsgroups-psp:v0.1.9
 keywords:
 - psp
 - container
 - runtime
 links:
 - name: policy
-  url: https://github.com/kubewarden/allowed-fsgroups-psp-policy/releases/download/v0.1.9/policy.wasm
+  url: https://github.com/viccuad/allowed-fsgroups-psp-policy/releases/download/v0.1.9/policy.wasm
 - name: source
-  url: https://github.com/kubewarden/allowed-fsgroups-psp-policy
+  url: https://github.com/viccuad/allowed-fsgroups-psp-policy
 install: |
   The policy can be obtained using [`kwctl`](https://github.com/kubewarden/kwctl):
   ```console
-  kwctl pull ghcr.io/kubewarden/policies/allowed-fsgroups-psp:v0.1.9
+  kwctl pull ghcr.io/viccuad/policies/allowed-fsgroups-psp:v0.1.9
   ```
 maintainers:
 - name: Kubewarden developers
